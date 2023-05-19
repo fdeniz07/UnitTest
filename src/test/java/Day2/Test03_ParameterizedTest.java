@@ -28,6 +28,9 @@ public class Test03_ParameterizedTest {
         assertTrue(str.length() > 0);
     }
 
+
+    //NOT: ValueSource da sadece tek bir deger kullanilabilirken, CsvSource de ise birden fazla deger parametre ile kullanilacaksa kullanilir.
+
     //!!! 2.Örnek
     @Test
     void testUpperCase(){
